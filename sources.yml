@@ -1,0 +1,49 @@
+timezone: "Asia/Manila"
+
+email:
+  subject_prefix: "APAC AI/Digital Opportunities (Automated)"
+  max_items: 25
+
+keywords:
+  must_have_any:
+    - "artificial intelligence"
+    - "AI"
+    - "machine learning"
+    - "genai"
+    - "generative ai"
+    - "large language model"
+    - "LLM"
+    - "digital government"
+    - "govtech"
+    - "digital transformation"
+    - "data platform"
+    - "data governance"
+    - "interoperability"
+    - "cybersecurity"
+    - "cloud"
+  nice_to_have_any:
+    - "capacity building"
+    - "training"
+    - "technical assistance"
+    - "advisory"
+    - "consulting"
+    - "strategy"
+    - "implementation"
+  exclude_any:
+    - "toner"
+    - "printer"
+    - "stationery"
+    - "laptop"
+    - "desktop"
+    - "photocopier"
+
+sources:
+  - name: "ADB Opportunities"
+    type: "rss"
+    url: "REPLACE_WITH_REAL_RSS"
+    tags: ["multilateral", "apac"]
+
+  - name: "UN Procurement (UNGM)"
+    type: "rss"
+    url: "REPLACE_WITH_REAL_RSS"
+    tags: ["un", "global"]
